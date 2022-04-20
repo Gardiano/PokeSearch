@@ -1,0 +1,223 @@
+
+
+body { 
+  color: #ffff;
+
+  border: 0;
+  outline: 0;
+  margin: 0px;
+
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+
+  z-index: 9999;
+  background: #ffff;
+  border-bottom: 1px solid rgb(204, 97, 97);
+}
+
+header h1 {
+  color:  rgb(204, 97, 97);
+  font-size: 30px;
+  text-align: center;  
+
+  padding: 15px;
+
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.toastsButton {
+  width: 250px;
+  height: 50px;
+
+  display: none;
+
+  font-size: 16px;
+  text-align: center;
+  line-height: 45px;
+  
+  border-radius: 5px;
+  
+  bottom: 0;
+  right: 30px;
+  position: fixed;
+
+  z-index: 9999;
+  background: rgb(204, 97, 97);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+  margin: auto;
+
+  z-index: 9990;
+}
+
+.container .searchBarBox {
+  width: 100%;
+  max-width: 900px;
+
+  margin: 0px auto 10px;  
+  display: flex;
+  
+  flex: 1;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  padding: 20px;
+  padding: 0px 20px 20px 20px;
+  background: #fff; 
+  
+  border-radius: 5px;
+}
+
+.container .searchBarBox h1 {
+ color: grey;
+ font-size: 30px;
+ margin-bottom: 30px;
+ text-align: center;
+ font-weight: 700;
+}
+
+.container .searchBarBox input { 
+  background: rgb(240, 240, 240);
+  caret-color: rgb(204, 97, 97);
+}
+
+.container .searchBarBox button {
+  color:rgb(204, 97, 97);
+  width: 150px;
+  height: 50px;
+
+  outline:0;
+
+  display: flex;
+  margin: auto;  
+
+  line-height: 37px;
+
+  margin-left: 12px;
+  background: whitesmoke;
+  background-image: url('../images/ball3.gif');
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+
+  border: 1px solid rgb(204, 97, 97);
+}
+
+.pokemonList {
+  width: 100%;
+  height: auto;
+
+  gap: 20px;
+  display: flex;  
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:center;
+}
+
+.pokemonCard {
+  width: 100%;
+  max-width: 200px;
+  height: 400px;
+
+  display: block;
+
+  background: #fff;
+
+  border-radius: 10px;
+
+  text-decoration: none;
+
+  border: 0;
+
+  height: 270px;
+}
+
+.pokemonCard:hover {
+  -webkit-box-shadow: 1px 6px 12px -3px rgba(209,209,209,1);
+  -moz-box-shadow: 1px 6px 12px -3px rgba(209,209,209,1);
+  box-shadow: 1px 6px 12px -3px rgba(209,209,209,1);
+}
+
+.pokemonCard img {
+  width: 100%;
+  max-width: 220px;
+  height: 300px;
+
+  padding: 20px;
+
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url( '../images/ball17.png' );
+  /* border-bottom: 1px solid rgb(228, 161, 161); */
+  transition: all 1s;
+
+  height: 180px;
+}
+
+.pokemonCard img:hover {
+  -moz-transform: scale( 1.1 );
+  -webkit-transform: scale( 1.1 );
+  transform: scale( 1.2 );
+}
+
+.pokemonCard p {
+ font-size: 20px;
+ margin-top: 10px;
+
+ font-weight: 700;
+ font-style: oblique;
+
+ margin: auto;
+ display: block;
+
+ color: rgb(75, 75, 75);
+}
+
+.pokemonCard span {
+  font-size: 20px;
+  text-align: center;
+  
+  font-style: oblique;
+
+  margin: auto;
+  display: block;
+
+  color: rgb(75, 75, 75);
+}
+
+#loadMore {
+  color: white;
+  width: 50px;
+  height: 50px;
+
+  margin: auto;
+  display: block;
+
+  outline: 0;
+
+  font-size: 20px;
+  border-radius: 50px;
+
+  background: rgb(204, 97, 97);
+  border: 5px solid rgb(218, 161, 161);
+}
+
+#loadMore:hover {
+  width: 55px;
+  height: 55px;
+  border: 8px solid rgb(218, 161, 161);
+}

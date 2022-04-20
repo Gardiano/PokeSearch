@@ -1,0 +1,195 @@
+
+/* index media css */
+@media screen and ( max-width: 700px ) {
+
+  .container .searchBarBox h1 {
+  color: grey;
+
+  font-size: 24px;
+    
+  text-align: center;
+  font-weight: 700;
+
+  margin-bottom: 30px;   
+  }
+
+  .container .searchBarBox input { 
+  height: 45px;
+
+  background: rgb(240, 240, 240);
+  caret-color: rgb(204, 97, 97);
+  }
+
+  .container .searchBarBox button { 
+  width: 70px;
+  height: 45px;
+
+  line-height: 25px;
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+  .container .searchBarBox button p { 
+  display: none;
+  };
+
+}
+
+/* index media css */
+@media screen and ( max-width: 500px ) { 
+  header {
+    width: 100%;    
+    position: unset;
+  }
+
+  .container .searchBarBox h1 {
+    font-size: 22px;
+  }
+
+  .container .searchBarBox input { 
+    height: 40px;
+  }
+
+  .container .searchBarBox button {
+    height: 40px;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .container .status .pokemonStatus {
+    height: auto;
+  }
+
+  .container .status .pokemonStatus .statusBar1 { 
+    width: 100%;
+    height: auto;
+    display: block;
+
+    border-bottom: 3px solid rgb(204, 97, 97);
+  }
+
+  .container .status .pokemonStatus .statusBar1, .id, .name, .types, .height, .weight, .abilities {
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .container .status .pokemonStatus .statusBar1, label { 
+    color: rgb(20, 20, 20);
+    font-weight: 700;
+    display: block;
+  }
+
+  .container .status .pokemonStatus .statusBar2 { 
+    color: grey;
+
+    width: 100%;    
+    height: auto;  
+
+    display: block;
+    margin: auto;
+  }
+
+  .container .status .pokemonStatus .statusBar2 .fightStatus {
+    padding: 0;
+  }
+
+  #backButton {
+    width: 40px;
+    height: 40px;
+    line-height: 1.5;
+  }
+
+  #backButton:hover {
+    width: 45px;
+    height: 45px;
+    line-height: 1.7;
+    border: 5px solid rgb(218, 161, 161);
+  }
+}
+
+/* home media css */
+@media screen and ( max-width: 500px ) {
+  
+  header h1 {    
+    padding: 15px;
+  }
+
+  #pokeName {
+    font-size: 25px;
+  }
+
+  .pokemonList {     
+    gap: 15px;
+    margin-top: 0;
+  }
+
+  .pokemonCard {
+    width: 180px;
+    height: 270px;
+
+    display: block;
+  }
+
+  #loadMore {
+    width: 50px;
+    height: 50px;
+  }
+  
+  #loadMore:hover {
+   
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(218, 161, 161);      
+  }
+}
+
+/* home media css */
+@media screen and ( max-width: 398px ) {
+  .toastsButton {
+    width: 230px;
+    height: 45px;
+
+    font-size: 16px;
+    line-height: 45px;
+
+    left: 0;
+  }
+
+  #pokeName {
+    font-size: 22px;
+  }
+
+  .pokemonList {
+    gap: 10px;
+  }
+
+  .pokemonCard {
+    width: 140px;
+    height: 220px;
+
+    display: block;
+  }
+
+  .pokemonCard img {
+    height: 150px;
+    padding: 5px;
+  }
+
+  .pokemonCard p {
+    font-size: 18px;
+    
+    /* font-family: 'Luckiest Guy', cursive; */
+  }
+    
+  .pokemonCard span {
+      font-size: 16px;
+  }
+}

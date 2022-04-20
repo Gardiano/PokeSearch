@@ -4,7 +4,7 @@
   </h1>
 
   <div align="center">
-    <img src="./images/forgit2.gif" alt="exemplo imagem" width="400" height="300">
+    <img src="./images/forgit2.gif" alt="exemplo imagem" width="500" height="500">
   </div>
   <br></br>
 

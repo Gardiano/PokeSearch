@@ -1,5 +1,12 @@
 
-/* index media css */
+/* pokemon.html media css */
+@media screen and ( max-width: 767px ) {
+  .pokemonCard {
+    max-width: 155px;
+  }
+}
+
+/* pokemon.html media css */
 @media screen and ( max-width: 700px ) {
 
   .container .searchBarBox h1 {
@@ -37,7 +44,7 @@
 
 }
 
-/* index media css */
+/* pokemon.html media css */
 @media screen and ( max-width: 500px ) { 
   header {
     width: 100%;    
@@ -115,8 +122,18 @@
   }
 }
 
-/* home media css */
+/* home.html media css */
 @media screen and ( max-width: 500px ) {
+
+  .toastsButton {
+    width: 230px;
+    height: 45px;
+
+    font-size: 16px;
+    line-height: 45px;
+
+    left: 0;
+  }
   
   header h1 {    
     padding: 15px;
@@ -132,7 +149,7 @@
   }
 
   .pokemonCard {
-    width: 180px;
+    width: 170px;
     height: 270px;
 
     display: block;
@@ -151,7 +168,7 @@
   }
 }
 
-/* home media css */
+/* home.html media css */
 @media screen and ( max-width: 398px ) {
   .toastsButton {
     width: 230px;

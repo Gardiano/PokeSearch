@@ -41,7 +41,7 @@
     try { 
       const response = await axios.get( `${ url + pokemonName }` );
         if( pokemonName === response.data.name || response.data.id ) {
-          window.location.href = 'index.html';
+          window.location.href = 'pokemon.html';
           cleanInput = $( '#pokemon' ).val( '' );
           return response.data;
         }; toastNotification();
@@ -55,7 +55,7 @@
   let getStatusByPokemonId = ( id ) => {
     let pokemonId = id;
     saveId = localStorage.setItem( 'pokemonName', pokemonId );
-    window.location.href = 'index.html';
+    window.location.href = 'pokemon.html';
   };
   
   let getPokemon = async ( id ) => {

@@ -18,6 +18,7 @@
   > -  html
   > -  css
   > -  javascript
+  > -  responsivo
 
   ### API 🗺️
 > https://pokeapi.co/

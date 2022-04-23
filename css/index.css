@@ -215,9 +215,3 @@ header h1 {
   background: rgb(204, 97, 97);
   border: 5px solid rgb(218, 161, 161);
 }
-
-#loadMore:hover {
-  width: 55px;
-  height: 55px;
-  border: 8px solid rgb(218, 161, 161);
-}

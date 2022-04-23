@@ -114,7 +114,7 @@
     line-height: 1.5;
   }
 
-  #backButton:hover {
+  #backButton:hover {    
     width: 45px;
     height: 45px;
     line-height: 1.7;
@@ -122,7 +122,7 @@
   }
 }
 
-/* home.html media css */
+/* index.html media css */
 @media screen and ( max-width: 500px ) {
 
   .toastsButton {
@@ -156,19 +156,13 @@
   }
 
   #loadMore {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
   }
-  
-  #loadMore:hover {
-   
-    width: 50px;
-    height: 50px;
-    border: 5px solid rgb(218, 161, 161);      
-  }
+ 
 }
 
-/* home.html media css */
+/* index.html media css */
 @media screen and ( max-width: 398px ) {
   .toastsButton {
     width: 230px;

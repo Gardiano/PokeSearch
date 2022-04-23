@@ -205,11 +205,11 @@ header h1 {
   height: 50px;
 
   margin: auto;
-  display: block;
-
   outline: 0;
 
-  font-size: 20px;
+  text-align: center;
+
+  font-size: 18px;
   border-radius: 50px;
 
   background: rgb(204, 97, 97);

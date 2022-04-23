@@ -201,17 +201,17 @@ header h1 {
 
 #loadMore {
   color: white;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
 
   margin: auto;
-  outline: 0;
+  display: block;
 
+  font-size: 16px;
   text-align: center;
+  text-decoration: none;
 
-  font-size: 18px;
+  border: none;
   border-radius: 50px;
-
   background: rgb(204, 97, 97);
-  border: 5px solid rgb(218, 161, 161);
 }
